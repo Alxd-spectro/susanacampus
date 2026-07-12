@@ -1,0 +1,1 @@
+VARDIA v3 visual. Abrir index.html. Formulario demo: conectar a Tally después.
