@@ -20,7 +20,7 @@ header{position:sticky;top:0;z-index:30;background:rgba(5,7,19,.72);border-botto
 .logo{font-size:22px;font-weight:950;letter-spacing:.34em}
 .navlinks{display:flex;gap:24px;align-items:center;color:var(--muted);font-size:14px}.navlinks a:hover{color:#fff}
 .more{position:relative}.more-panel{display:none;position:absolute;right:0;top:100%;min-width:205px;padding:10px;border:1px solid var(--line);border-radius:18px;background:rgba(9,13,31,.96);box-shadow:var(--shadow)}
-.more:hover .more-panel{display:grid}.more-panel a{padding:10px 12px;border-radius:12px}.more-panel a:hover{background:rgba(255,255,255,.08)}
+.more:hover .more-panel,.more.open .more-panel{display:grid}.more-panel a{padding:10px 12px;border-radius:12px}.more-panel a:hover{background:rgba(255,255,255,.08)}
 .btn{display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);padding:13px 18px;border-radius:999px;background:rgba(255,255,255,.085);font-weight:850;transition:.2s}
 .btn:hover{transform:translateY(-2px);background:rgba(255,255,255,.14)}.btn.primary{border:0;background:linear-gradient(135deg,var(--violet),var(--blue));box-shadow:0 22px 58px rgba(91,127,255,.34)}
 .hero{min-height:calc(100vh - 76px);display:grid;align-items:center;padding:78px 0 64px}
